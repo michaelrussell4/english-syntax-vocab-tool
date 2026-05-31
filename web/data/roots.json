@@ -1,0 +1,1166 @@
+{
+  "roots": [
+    {
+      "root": "bene",
+      "origin": "Latin",
+      "meaning": "well, good",
+      "examples": [
+        "benevolent",
+        "beneficial",
+        "benefit",
+        "benign",
+        "bonus"
+      ],
+      "description": "Originates from Latin 'bene', which means well or honorably. Used to describe positive actions, states, or attributes.",
+      "corpus_usages": []
+    },
+    {
+      "root": "mal",
+      "origin": "Latin",
+      "meaning": "bad, evil, ill",
+      "examples": [
+        "malevolent",
+        "malicious",
+        "malignant",
+        "malady",
+        "dismal"
+      ],
+      "description": "Originates from Latin 'malus', meaning bad. Used to denote harmful, evil, or poorly functioning entities and activities.",
+      "corpus_usages": []
+    },
+    {
+      "root": "dict",
+      "origin": "Latin",
+      "meaning": "speak, say, tell",
+      "examples": [
+        "dictionary",
+        "dictation",
+        "predict",
+        "contradict",
+        "verdict",
+        "dictate"
+      ],
+      "description": "Derived from Latin 'dicere' (to say, speak) or 'dictare' (to repeat). Relates to verbal communication, speech, or writing.",
+      "corpus_usages": []
+    },
+    {
+      "root": "spect",
+      "origin": "Latin",
+      "meaning": "look, see, watch",
+      "examples": [
+        "spectator",
+        "spectacles",
+        "inspect",
+        "respect",
+        "conspicuous",
+        "suspicion",
+        "perspective"
+      ],
+      "description": "Derived from Latin 'spectare', a frequentative verb meaning to look at, or 'specere' meaning to see. Associated with visual observation and oversight.",
+      "corpus_usages": [
+        {
+          "sentence_id": "alice_in_wonderland_74",
+          "sentence_text": "The White Rabbit put on his spectacles.",
+          "word_used": "spectacles",
+          "word_lemma": "spectacle",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "sherlock_holmes_40",
+          "sentence_text": "I did not gain very much, however, by my inspection.",
+          "word_used": "inspection",
+          "word_lemma": "inspection",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "sherlock_holmes_49",
+          "sentence_text": "It is introspective, and I want to introspect.",
+          "word_used": "introspective",
+          "word_lemma": "introspective",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "sherlock_holmes_49",
+          "sentence_text": "It is introspective, and I want to introspect.",
+          "word_used": "introspect",
+          "word_lemma": "introspect",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_12",
+          "sentence_text": "I have a high respect for your nerves.",
+          "word_used": "respect",
+          "word_lemma": "respect",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_25",
+          "sentence_text": "In that respect his friend had greatly the advantage.",
+          "word_used": "respect",
+          "word_lemma": "respect",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "graph",
+      "origin": "Greek",
+      "meaning": "write, draw, record",
+      "examples": [
+        "bibliography",
+        "biography",
+        "telegram",
+        "grammar",
+        "graphic",
+        "autograph",
+        "calligraphy"
+      ],
+      "description": "Derived from Greek 'graphein', meaning to write, scratch, or draw. Describes records, drawings, or written language.",
+      "corpus_usages": []
+    },
+    {
+      "root": "bio",
+      "origin": "Greek",
+      "meaning": "life",
+      "examples": [
+        "biology",
+        "biography",
+        "biosphere",
+        "biotic",
+        "symbiotic",
+        "biodegradable"
+      ],
+      "description": "Derived from Greek 'bios', meaning course of life or living things. Forms the basis of words related to living organisms.",
+      "corpus_usages": []
+    },
+    {
+      "root": "chron",
+      "origin": "Greek",
+      "meaning": "time",
+      "examples": [
+        "chronology",
+        "chronic",
+        "synchronize",
+        "chronicle",
+        "anachronism"
+      ],
+      "description": "Derived from Greek 'khronos', meaning time. Appears in terms related to temporal sequences, intervals, and historical records.",
+      "corpus_usages": []
+    },
+    {
+      "root": "morph",
+      "origin": "Greek",
+      "meaning": "form, shape",
+      "examples": [
+        "morphology",
+        "amorphous",
+        "metamorphosis",
+        "polymorphic",
+        "anthropomorphic"
+      ],
+      "description": "Derived from Greek 'morphe', meaning shape or outer form. Deals with configurations, structural patterns, and transitions.",
+      "corpus_usages": []
+    },
+    {
+      "root": "path",
+      "origin": "Greek",
+      "meaning": "feeling, suffering, emotion, disease",
+      "examples": [
+        "sympathy",
+        "empathy",
+        "apathy",
+        "pathetic",
+        "pathology",
+        "antipathy",
+        "telepathy"
+      ],
+      "description": "Derived from Greek 'pathos', which means suffering, feeling, or emotion. Connects to mental states or clinical diseases.",
+      "corpus_usages": []
+    },
+    {
+      "root": "port",
+      "origin": "Latin",
+      "meaning": "carry, bear",
+      "examples": [
+        "portable",
+        "export",
+        "import",
+        "transport",
+        "portfolio",
+        "report",
+        "support"
+      ],
+      "description": "Derived from Latin 'portare', meaning to carry or transport items or information from one point to another.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_67",
+          "sentence_text": "They are important, you understand, without being interesting.",
+          "word_used": "important",
+          "word_lemma": "important",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "scrib",
+      "origin": "Latin",
+      "meaning": "write",
+      "examples": [
+        "scribble",
+        "script",
+        "describe",
+        "prescription",
+        "manuscript",
+        "transcribe",
+        "inscription"
+      ],
+      "description": "Derived from Latin 'scribere', meaning to write or draw lines. Relates to typography, documentation, and drafting.",
+      "corpus_usages": []
+    },
+    {
+      "root": "vis",
+      "origin": "Latin",
+      "meaning": "see",
+      "examples": [
+        "video",
+        "vision",
+        "visible",
+        "revise",
+        "supervisor",
+        "provide",
+        "visual"
+      ],
+      "description": "Derived from Latin 'videre' (past participle 'visus'), meaning to see. Associated with sight, observation, and oversight.",
+      "corpus_usages": []
+    },
+    {
+      "root": "aud",
+      "origin": "Latin",
+      "meaning": "hear, listen",
+      "examples": [
+        "audio",
+        "audience",
+        "auditorium",
+        "audition",
+        "audible",
+        "audiovisual"
+      ],
+      "description": "Derived from Latin 'audire', meaning to hear. Used in reference to acoustic sound waves, listening, and speaking venues.",
+      "corpus_usages": []
+    },
+    {
+      "root": "voc",
+      "origin": "Latin",
+      "meaning": "call, voice",
+      "examples": [
+        "vocal",
+        "vocabulary",
+        "advocate",
+        "provoke",
+        "equivocal",
+        "invoke",
+        "vocation"
+      ],
+      "description": "Derived from Latin 'vox' (voice) or 'vocare' (to call). Linked to speech, naming, calling out, and career vocations.",
+      "corpus_usages": []
+    },
+    {
+      "root": "tract",
+      "origin": "Latin",
+      "meaning": "pull, drag, draw",
+      "examples": [
+        "tractor",
+        "attract",
+        "distract",
+        "extract",
+        "retract",
+        "contract",
+        "abstract"
+      ],
+      "description": "Derived from Latin 'trahere' (past participle 'tractus'), meaning to drag or pull. Relates to physical force or cognitive drawing.",
+      "corpus_usages": []
+    },
+    {
+      "root": "cred",
+      "origin": "Latin",
+      "meaning": "believe, trust",
+      "examples": [
+        "credit",
+        "incredible",
+        "credible",
+        "credentials",
+        "creed",
+        "incredulous"
+      ],
+      "description": "Derived from Latin 'credere', meaning to believe or trust. Forms the foundation of terms describing faith, character, and financial trust.",
+      "corpus_usages": []
+    },
+    {
+      "root": "duc",
+      "origin": "Latin",
+      "meaning": "lead, guide",
+      "examples": [
+        "conduct",
+        "abduct",
+        "induce",
+        "deduce",
+        "ductile",
+        "reduction",
+        "introduce",
+        "educate"
+      ],
+      "description": "Derived from Latin 'ducere', meaning to lead or channel. Found in terms describing guiding, drawing out, or managing.",
+      "corpus_usages": [
+        {
+          "sentence_id": "alice_in_wonderland_14",
+          "sentence_text": "Duck: “it’s generally a frog or a worm.",
+          "word_used": "Duck",
+          "word_lemma": "duck",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "alice_in_wonderland_15",
+          "sentence_text": "William’s conduct at first was moderate.",
+          "word_used": "conduct",
+          "word_lemma": "conduct",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "alice_in_wonderland_53",
+          "sentence_text": "The Duchess took her choice, and was gone in a moment.",
+          "word_used": "Duchess",
+          "word_lemma": "Duchess",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "alice_in_wonderland_72",
+          "sentence_text": "The next witness was the Duchess’s cook.",
+          "word_used": "Duchess",
+          "word_lemma": "Duchess",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "sherlock_holmes_55",
+          "sentence_text": "Let me introduce you to Mr.",
+          "word_used": "introduce",
+          "word_lemma": "introduce",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "fac",
+      "origin": "Latin",
+      "meaning": "make, do",
+      "examples": [
+        "factory",
+        "affect",
+        "efficient",
+        "deficit",
+        "perfect",
+        "magnificent",
+        "manufacture",
+        "facilitate"
+      ],
+      "description": "Derived from Latin 'facere' (past participle 'factus'), meaning to make, build, or perform an action.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_63",
+          "sentence_text": "I hardly looked at his face.",
+          "word_used": "face",
+          "word_lemma": "face",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "sherlock_holmes_106",
+          "sentence_text": "The old man sank his face in his hands.",
+          "word_used": "face",
+          "word_lemma": "face",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "auto",
+      "origin": "Greek",
+      "meaning": "self",
+      "examples": [
+        "automatic",
+        "autobiography",
+        "autonomy",
+        "autograph",
+        "automotive",
+        "automobile"
+      ],
+      "description": "Derived from Greek 'autos', meaning self, same, or spontaneous. Denotes actions or items that operate independently.",
+      "corpus_usages": []
+    },
+    {
+      "root": "tele",
+      "origin": "Greek",
+      "meaning": "far, distant",
+      "examples": [
+        "telephone",
+        "television",
+        "telescope",
+        "telegram",
+        "telepathy",
+        "telecommunications"
+      ],
+      "description": "Derived from Greek 'tele', meaning far off or operating over a distance.",
+      "corpus_usages": []
+    },
+    {
+      "root": "phon",
+      "origin": "Greek",
+      "meaning": "sound, voice",
+      "examples": [
+        "phonics",
+        "symphony",
+        "megaphone",
+        "microphone",
+        "phonetic",
+        "cacophony"
+      ],
+      "description": "Derived from Greek 'phone', meaning sound, voice, or language syntax.",
+      "corpus_usages": [
+        {
+          "sentence_id": "alice_in_wonderland_54",
+          "sentence_text": "They very soon came upon a Gryphon, lying fast asleep in the sun.",
+          "word_used": "Gryphon",
+          "word_lemma": "Gryphon",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "alice_in_wonderland_56",
+          "sentence_text": "Gryphon said to the Mock Turtle, “Drive on, old fellow!",
+          "word_used": "Gryphon",
+          "word_lemma": "Gryphon",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "alice_in_wonderland_57",
+          "sentence_text": "The Gryphon lifted up both its paws in surprise.",
+          "word_used": "Gryphon",
+          "word_lemma": "Gryphon",
+          "book": "Alice in Wonderland"
+        }
+      ]
+    },
+    {
+      "root": "phil",
+      "origin": "Greek",
+      "meaning": "love, friendship",
+      "examples": [
+        "philosophy",
+        "philanthropist",
+        "bibliophile",
+        "Philadelphia",
+        "philology"
+      ],
+      "description": "Derived from Greek 'philein' (to love) or 'philos' (dear, beloved). Denotes affinities, scholarly passions, or goodwill.",
+      "corpus_usages": []
+    },
+    {
+      "root": "phob",
+      "origin": "Greek",
+      "meaning": "fear, dread",
+      "examples": [
+        "phobia",
+        "claustrophobia",
+        "xenophobia",
+        "arachnophobia",
+        "hydrophobia"
+      ],
+      "description": "Derived from Greek 'phobos', meaning fear, terror, or flight. Used to denote psychological aversions and fears.",
+      "corpus_usages": []
+    },
+    {
+      "root": "log",
+      "origin": "Greek",
+      "meaning": "word, study, reason, speech",
+      "examples": [
+        "logic",
+        "biology",
+        "apology",
+        "dialogue",
+        "monologue",
+        "prologue",
+        "analogy",
+        "logistics"
+      ],
+      "description": "Derived from Greek 'logos', which means word, reason, speech, or discourse. Frequently refers to scholarly domains (-ology).",
+      "corpus_usages": []
+    },
+    {
+      "root": "mono",
+      "origin": "Greek",
+      "meaning": "one, single, alone",
+      "examples": [
+        "monologue",
+        "monopoly",
+        "monotonous",
+        "monochrome",
+        "monastery",
+        "monarch"
+      ],
+      "description": "Derived from Greek 'monos', meaning single, alone, or solitary. Denotes singular ownership, speech, or form.",
+      "corpus_usages": []
+    },
+    {
+      "root": "poly",
+      "origin": "Greek",
+      "meaning": "many, much",
+      "examples": [
+        "polygon",
+        "polytheism",
+        "polynomial",
+        "polymer",
+        "polymath",
+        "polygamy"
+      ],
+      "description": "Derived from Greek 'polys', meaning many or multiple. Found in terms describing multiplicity, diversity, or compounds.",
+      "corpus_usages": []
+    },
+    {
+      "root": "anthrop",
+      "origin": "Greek",
+      "meaning": "human, mankind",
+      "examples": [
+        "anthropology",
+        "philanthropist",
+        "misanthrope",
+        "anthropomorphic",
+        "anthropocentric"
+      ],
+      "description": "Derived from Greek 'anthropos', meaning human being. Used to describe human cultures, physiology, and philosophies.",
+      "corpus_usages": []
+    },
+    {
+      "root": "gen",
+      "origin": "Greek",
+      "meaning": "birth, race, produce, origin",
+      "examples": [
+        "generate",
+        "genetics",
+        "genealogy",
+        "generic",
+        "indigenous",
+        "pathogen",
+        "generous",
+        "genesis"
+      ],
+      "description": "Derived from Greek 'genos' (race, kind) or 'gignesthai' (to be born). Refers to heritage, reproduction, or creation.",
+      "corpus_usages": [
+        {
+          "sentence_id": "alice_in_wonderland_14",
+          "sentence_text": "Duck: “it’s generally a frog or a worm.",
+          "word_used": "generally",
+          "word_lemma": "generally",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "sherlock_holmes_73",
+          "sentence_text": "Very retiring and gentlemanly he was.",
+          "word_used": "gentlemanly",
+          "word_lemma": "gentlemanly",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_34",
+          "sentence_text": "My brother and the gentlemen are to dine with the officers.",
+          "word_used": "gentlemen",
+          "word_lemma": "gentleman",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "geo",
+      "origin": "Greek",
+      "meaning": "earth, ground",
+      "examples": [
+        "geography",
+        "geology",
+        "geometry",
+        "geothermal",
+        "geocentric",
+        "geopolitics"
+      ],
+      "description": "Derived from Greek 'ge', meaning earth or land. Used to describe planetary sciences, surveying, and mapping.",
+      "corpus_usages": []
+    },
+    {
+      "root": "metr",
+      "origin": "Greek",
+      "meaning": "measure",
+      "examples": [
+        "metric",
+        "thermometer",
+        "perimeter",
+        "diameter",
+        "symmetry",
+        "geometry",
+        "metronome"
+      ],
+      "description": "Derived from Greek 'metron', meaning measure or scale. Used to describe instruments and mathematical dimensions.",
+      "corpus_usages": []
+    },
+    {
+      "root": "hydr",
+      "origin": "Greek",
+      "meaning": "water",
+      "examples": [
+        "hydrate",
+        "dehydrate",
+        "hydrogen",
+        "hydraulic",
+        "hydrant",
+        "hydroelectric"
+      ],
+      "description": "Derived from Greek 'hudor', meaning water. Associated with fluid mechanics, chemical compounds, and hydration states.",
+      "corpus_usages": []
+    },
+    {
+      "root": "therm",
+      "origin": "Greek",
+      "meaning": "heat, warm",
+      "examples": [
+        "thermal",
+        "thermometer",
+        "thermostat",
+        "geothermal",
+        "thermodynamic",
+        "hypothermia"
+      ],
+      "description": "Derived from Greek 'therme', meaning heat or warmth. Found in terms relating to temperature regulation and energy.",
+      "corpus_usages": []
+    },
+    {
+      "root": "cept",
+      "origin": "Latin",
+      "meaning": "take, seize, receive",
+      "examples": [
+        "capture",
+        "intercept",
+        "recipe",
+        "participate",
+        "conceptual",
+        "perceive",
+        "except",
+        "reception"
+      ],
+      "description": "Derived from Latin 'capere' (past participle 'captus'), meaning to take or seize. Describes catching, gathering, or conceiving.",
+      "corpus_usages": []
+    },
+    {
+      "root": "ten",
+      "origin": "Latin",
+      "meaning": "hold, keep",
+      "examples": [
+        "tenacious",
+        "retention",
+        "contain",
+        "maintain",
+        "continent",
+        "tenant",
+        "tenet",
+        "sustainable"
+      ],
+      "description": "Derived from Latin 'tenere', meaning to hold or keep fast. Describes maintenance, durability, or storage contents.",
+      "corpus_usages": [
+        {
+          "sentence_id": "alice_in_wonderland_30",
+          "sentence_text": "Do you think I can listen all day to such stuff?",
+          "word_used": "listen",
+          "word_lemma": "listen",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_2",
+          "sentence_text": "And in that sense Miss Austen certainly was one.",
+          "word_used": "Austen",
+          "word_lemma": "Austen",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "miss",
+      "origin": "Latin",
+      "meaning": "send, let go",
+      "examples": [
+        "transmit",
+        "mission",
+        "dismiss",
+        "submit",
+        "emit",
+        "missive",
+        "promise",
+        "admit"
+      ],
+      "description": "Derived from Latin 'mittere' (past participle 'missus'), meaning to send, launch, or throw.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_10",
+          "sentence_text": "And this promises to be interesting.",
+          "word_used": "promises",
+          "word_lemma": "promise",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_2",
+          "sentence_text": "And in that sense Miss Austen certainly was one.",
+          "word_used": "Miss",
+          "word_lemma": "Miss",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_22",
+          "sentence_text": "First of all, he asked Miss Lucas.",
+          "word_used": "Miss",
+          "word_lemma": "Miss",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_61",
+          "sentence_text": "Miss Bingley’s attention was quite as much engaged in watching Mr.",
+          "word_used": "Miss",
+          "word_lemma": "Miss",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "pos",
+      "origin": "Latin",
+      "meaning": "put, place",
+      "examples": [
+        "postpone",
+        "position",
+        "component",
+        "dispose",
+        "impose",
+        "oppose",
+        "expose",
+        "deposit"
+      ],
+      "description": "Derived from Latin 'ponere' (past participle 'positus'), meaning to place or arrange. Relates to alignment, postures, and structures.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_43",
+          "sentence_text": "If you leave, you forfeit your whole position forever.",
+          "word_used": "position",
+          "word_lemma": "position",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "sequ",
+      "origin": "Latin",
+      "meaning": "follow",
+      "examples": [
+        "sequence",
+        "consecutive",
+        "sequel",
+        "subsequent",
+        "persecute",
+        "prosecute",
+        "consequence"
+      ],
+      "description": "Derived from Latin 'sequi', meaning to follow, pursue, or come after. Relates to logical order, linear steps, and outcomes.",
+      "corpus_usages": []
+    },
+    {
+      "root": "vent",
+      "origin": "Latin",
+      "meaning": "come",
+      "examples": [
+        "convene",
+        "prevent",
+        "adventure",
+        "event",
+        "inventory",
+        "avenue",
+        "intervention",
+        "convent"
+      ],
+      "description": "Derived from Latin 'venire' (past participle 'ventus'), meaning to come or arrive. Associated with occurrences, meetings, or arrivals.",
+      "corpus_usages": []
+    },
+    {
+      "root": "fer",
+      "origin": "Latin",
+      "meaning": "carry, bear, bring",
+      "examples": [
+        "transfer",
+        "ferry",
+        "fertile",
+        "reference",
+        "suffer",
+        "defer",
+        "prefer",
+        "inference"
+      ],
+      "description": "Derived from Latin 'ferre', meaning to carry, bear, or produce. Refers to carrying items, drawing inferences, or yielding fruit.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_102",
+          "sentence_text": "The other was his singular dying reference to a rat.",
+          "word_used": "reference",
+          "word_lemma": "reference",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_67",
+          "sentence_text": "Jane; and till the morrow their going was deferred.",
+          "word_used": "deferred",
+          "word_lemma": "defer",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "puls",
+      "origin": "Latin",
+      "meaning": "drive, push, beat",
+      "examples": [
+        "propel",
+        "pulse",
+        "compel",
+        "repulse",
+        "expel",
+        "impulse",
+        "compulsive",
+        "pulsate"
+      ],
+      "description": "Derived from Latin 'pellere' (past participle 'pulsus'), meaning to push, strike, or drive out.",
+      "corpus_usages": []
+    },
+    {
+      "root": "ped",
+      "origin": "Latin",
+      "meaning": "foot",
+      "examples": [
+        "pedestrian",
+        "pedal",
+        "pedestal",
+        "impede",
+        "expedite",
+        "pedicure",
+        "expedition"
+      ],
+      "description": "Derived from Latin 'pes' (genitive 'pedis'), meaning foot. Relates to foot transit, obstacles, and mechanical pedals. Do not confuse with the Greek root for child.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_53",
+          "sentence_text": "What was this nocturnal expedition, and why should I go armed?",
+          "word_used": "expedition",
+          "word_lemma": "expedition",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "dem",
+      "origin": "Greek",
+      "meaning": "people",
+      "examples": [
+        "democracy",
+        "epidemic",
+        "demographic",
+        "demagogue",
+        "endemic"
+      ],
+      "description": "Derived from Greek 'demos', meaning the common people or populace of a district. Relates to governance, populations, and public health.",
+      "corpus_usages": []
+    },
+    {
+      "root": "arch",
+      "origin": "Greek",
+      "meaning": "rule, govern, chief, ancient",
+      "examples": [
+        "monarchy",
+        "anarchy",
+        "architect",
+        "archetype",
+        "archbishop",
+        "archaeology",
+        "oligarchy"
+      ],
+      "description": "Derived from Greek 'arkhein' (to rule) or 'arkhos' (ruler) and 'arkhaios' (ancient). Used in terms of structural order, hierarchy, or historical periods.",
+      "corpus_usages": [
+        {
+          "sentence_id": "alice_in_wonderland_51",
+          "sentence_text": "So she went in search of her hedgehog.",
+          "word_used": "search",
+          "word_lemma": "search",
+          "book": "Alice in Wonderland"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_31",
+          "sentence_text": "Elizabeth looked archly, and turned away.",
+          "word_used": "archly",
+          "word_lemma": "archly",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "psych",
+      "origin": "Greek",
+      "meaning": "mind, soul, spirit",
+      "examples": [
+        "psychology",
+        "psychiatrist",
+        "psychic",
+        "psychedelic",
+        "psychosis",
+        "psychosomatic"
+      ],
+      "description": "Derived from Greek 'psykhe', meaning breath, soul, mind, or life. Denotes study of human consciousness and cognitive disorders.",
+      "corpus_usages": []
+    },
+    {
+      "root": "corp",
+      "origin": "Latin",
+      "meaning": "body",
+      "examples": [
+        "corporation",
+        "corpse",
+        "corpus",
+        "corpulent",
+        "corporate",
+        "incorporate"
+      ],
+      "description": "Derived from Latin 'corpus' (genitive 'corporis'), meaning body. Found in legal assemblies, physical carcasses, and textual bodies.",
+      "corpus_usages": []
+    },
+    {
+      "root": "manu",
+      "origin": "Latin",
+      "meaning": "hand",
+      "examples": [
+        "manual",
+        "manufacture",
+        "manuscript",
+        "manipulate",
+        "emancipate",
+        "maneuver"
+      ],
+      "description": "Derived from Latin 'manus', meaning hand. Relates to physical work, manual guidance, and liberation from hand restraints.",
+      "corpus_usages": []
+    },
+    {
+      "root": "fore",
+      "origin": "Germanic",
+      "meaning": "before, front, ahead",
+      "examples": [
+        "forecast",
+        "forehead",
+        "foreshadow",
+        "forebear",
+        "foremost",
+        "foresee",
+        "groundfore"
+      ],
+      "description": "A highly productive Old English/Germanic prefix meaning before in position, time, or precedence.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_43",
+          "sentence_text": "If you leave, you forfeit your whole position forever.",
+          "word_used": "forever",
+          "word_lemma": "forever",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "sherlock_holmes_72",
+          "sentence_text": "Mr. Hardy, who used to be our foreman, and it was there I met Mr.",
+          "word_used": "foreman",
+          "word_lemma": "foreman",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "sherlock_holmes_85",
+          "sentence_text": "But soon he found that that would not answer forever.",
+          "word_used": "forever",
+          "word_lemma": "forever",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "under",
+      "origin": "Germanic",
+      "meaning": "below, beneath, insufficient",
+      "examples": [
+        "undergo",
+        "underestimate",
+        "understand",
+        "undergarment",
+        "underground",
+        "undertaker"
+      ],
+      "description": "An Old English/Germanic preposition and prefix denoting a position below, behind, or a state of insufficiency.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_67",
+          "sentence_text": "They are important, you understand, without being interesting.",
+          "word_used": "understand",
+          "word_lemma": "understand",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "over",
+      "origin": "Germanic",
+      "meaning": "above, excessive, across",
+      "examples": [
+        "overlook",
+        "overbearing",
+        "overdo",
+        "overflow",
+        "overwhelm",
+        "oversee",
+        "overtake"
+      ],
+      "description": "An Old English/Germanic prefix meaning above, superior, beyond, or excessive in amount/degree.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_68",
+          "sentence_text": "Perhaps I have trained myself to see what others overlook.",
+          "word_used": "overlook",
+          "word_lemma": "overlook",
+          "book": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "root": "out",
+      "origin": "Germanic",
+      "meaning": "beyond, external, surpassing",
+      "examples": [
+        "outcast",
+        "outcome",
+        "outdoor",
+        "outlandish",
+        "outrun",
+        "outstanding",
+        "outlaw"
+      ],
+      "description": "An Old English/Germanic prefix denoting outward motion, exclusion, or the act of surpassing/exceeding.",
+      "corpus_usages": []
+    },
+    {
+      "root": "with",
+      "origin": "Germanic",
+      "meaning": "against, back, away",
+      "examples": [
+        "withdraw",
+        "withhold",
+        "withstand"
+      ],
+      "description": "An Old English/Germanic prefix representing opposition, backing away, or withholding.",
+      "corpus_usages": []
+    },
+    {
+      "root": "mis",
+      "origin": "Germanic",
+      "meaning": "bad, wrong, astray",
+      "examples": [
+        "mistake",
+        "mislead",
+        "mischief",
+        "mistrust",
+        "misdeed",
+        "misunderstand",
+        "mishap"
+      ],
+      "description": "An Old English/Germanic prefix meaning bad, wrong, erroneous, or astray.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_31",
+          "sentence_text": "My mistress told me that you were likely to call.",
+          "word_used": "mistress",
+          "word_lemma": "mistress",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_26",
+          "sentence_text": "Is not there a little mistake?” said Jane.",
+          "word_used": "mistake",
+          "word_lemma": "mistake",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_102",
+          "sentence_text": "That would be the greatest misfortune of all!",
+          "word_used": "misfortune",
+          "word_lemma": "misfortune",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "root": "un",
+      "origin": "Germanic",
+      "meaning": "not, opposite, reversal",
+      "examples": [
+        "unhappy",
+        "undo",
+        "unlock",
+        "unseen",
+        "ungrateful",
+        "unusual",
+        "unfold"
+      ],
+      "description": "An Old English/Germanic prefix expressing negation or reversal of an action/state.",
+      "corpus_usages": [
+        {
+          "sentence_id": "sherlock_holmes_5",
+          "sentence_text": "The note was undated, and without either signature or address.",
+          "word_used": "undated",
+          "word_lemma": "undated",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "sherlock_holmes_8",
+          "sentence_text": "It is the German who is so uncourteous to his verbs.",
+          "word_used": "uncourteous",
+          "word_lemma": "uncourteous",
+          "book": "Sherlock Holmes"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_1",
+          "sentence_text": "Eltons, cannot but unite the suffrages of everybody.",
+          "word_used": "unite",
+          "word_lemma": "unite",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_63",
+          "sentence_text": "Elizabeth herself could be, and unconsciously closed his book.",
+          "word_used": "unconsciously",
+          "word_lemma": "unconsciously",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_68",
+          "sentence_text": "Bingley was uncivil to her and more teasing than usual to himself.",
+          "word_used": "uncivil",
+          "word_lemma": "uncivil",
+          "book": "Pride and Prejudice"
+        },
+        {
+          "sentence_id": "pride_and_prejudice_101",
+          "sentence_text": "Wickham, and of hearing that he was universally liked.",
+          "word_used": "universally",
+          "word_lemma": "universally",
+          "book": "Pride and Prejudice"
+        }
+      ]
+    }
+  ]
+}

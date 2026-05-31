@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏛️ English Syntax & Vocabulary Etymology Tool</title>
+  <meta name="description" content="An interactive tool for exploring English grammar, syntax dependency trees, and Latin, Greek, and Germanic vocabulary etymology.">
+  
+  <!-- Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Custom Modern CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="dark-mode">
+
+  <!-- Background decorative elements for rich aesthetics -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+
+  <!-- Central Container -->
+  <div class="app-container">
+    
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="logo-area" id="logoArea">
+        <span class="logo-icon">🏛️</span>
+        <div class="logo-text">
+          <h1>Syntactika</h1>
+          <p>Grammar & Etymology Forge</p>
+        </div>
+      </div>
+      
+      <!-- Top controls -->
+      <nav class="app-nav">
+        <button id="navBtnDashboard" class="nav-btn active" onclick="app.switchView('dashboard')">🏰 Dashboard</button>
+        <button id="navBtnSyntax" class="nav-btn" onclick="app.switchView('syntax')">🌲 Syntax Parser</button>
+        <button id="navBtnEtymology" class="nav-btn" onclick="app.switchView('etymology')">🧬 Root Explorer</button>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle light/dark mode" onclick="app.toggleTheme()">
+          <span class="sun-icon">☀️</span>
+          <span class="moon-icon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN VIEWS -->
+    <main class="app-main">
+
+      <!-- ================= 1. DASHBOARD VIEW ================= -->
+      <section id="viewDashboard" class="view-section active">
+        <div class="hero-card glass">
+          <div class="hero-content">
+            <span class="badge">Aesthetic Linguistic Engine</span>
+            <h2>Master English Grammar through Literature & History</h2>
+            <p>Welcome to <strong>Syntactika</strong>, an educational platform that breaks down sentences into interactive visual dependency trees and traces their vocabulary back to Greek, Latin, and Germanic origins.</p>
+            <div class="hero-actions">
+              <button class="primary-btn" onclick="app.switchView('syntax')">Start Parsing Syntax ➔</button>
+              <button class="secondary-btn" onclick="app.switchView('etymology')">Trace Roots & Origins ➔</button>
+            </div>
+          </div>
+          <div class="hero-illustration">
+            <!-- Decorative SVG showing a grammatical arc linking words -->
+            <svg class="hero-svg" viewBox="0 0 300 200">
+              <path d="M50 150 C 120 50, 180 50, 250 150" fill="none" stroke="var(--accent-primary)" stroke-width="3" stroke-dasharray="6,6"></path>
+              <circle cx="50" cy="150" r="8" fill="var(--subject-color)"></circle>
+              <circle cx="250" cy="150" r="8" fill="var(--object-color)"></circle>
+              <circle cx="150" cy="98" r="5" fill="var(--verb-color)"></circle>
+              <text x="50" y="180" class="svg-text" text-anchor="middle">Subject</text>
+              <text x="150" y="125" class="svg-text" text-anchor="middle">Verb</text>
+              <text x="250" y="180" class="svg-text" text-anchor="middle">Object</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <!-- Card for Syntax Tool -->
+          <div class="tool-card glass hover-card">
+            <div class="card-icon" style="background: var(--subject-gradient);">🌲</div>
+            <h3>Syntax Dependency Visualizer</h3>
+            <p>Deconstruct sentences from classic literature. Highlight subjects, verbs, objects, and modifiers. Hover to view grammatical roles, and analyze dependency relationships in beautifully rendered visual trees.</p>
+            <ul class="card-features">
+              <li>✨ Live dependency parser drawing</li>
+              <li>📖 Classics from Lewis Carroll, Austen & Doyle</li>
+              <li>🎯 "Identify the Object" interactive quizzes</li>
+            </ul>
+            <button class="action-link-btn" onclick="app.switchView('syntax')">Launch Syntax Parser ➔</button>
+          </div>
+
+          <!-- Card for Etymology Tool -->
+          <div class="tool-card glass hover-card">
+            <div class="card-icon" style="background: var(--verb-gradient);">🧬</div>
+            <h3>Vocabulary Root Explorer</h3>
+            <p>Trace the historical bloodlines of English words. Browse a comprehensive library of Greek, Latin, and Germanic roots, view derivation family trees, and click words directly inside literature to reveal their etymological history.</p>
+            <ul class="card-features">
+              <li>🌲 Dynamic word derivation family trees</li>
+              <li>🗺️ Greek, Latin & Germanic taxonomy lists</li>
+              <li>🧩 "Root Matcher" & vocabulary building puzzles</li>
+            </ul>
+            <button class="action-link-btn" onclick="app.switchView('etymology')">Launch Root Explorer ➔</button>
+          </div>
+        </div>
+
+        <!-- Literature Showcase -->
+        <div class="stats-bar glass">
+          <div class="stat-item">
+            <span class="stat-num" id="statSentences">--</span>
+            <span class="stat-label">Grammatical Sentences</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="statRoots">--</span>
+            <span class="stat-label">Ancient Word Roots</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Classic Masterpieces</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 2. SYNTAX TOOL VIEW ================= -->
+      <section id="viewSyntax" class="view-section">
+        <div class="tool-layout">
+          
+          <!-- Sidebar: Control Panel -->
+          <aside class="tool-sidebar glass">
+            <div class="sidebar-header">
+              <h3>🌲 Syntax Studio</h3>
+              <p>Configure literature selections & syntax overlays</p>
+            </div>
+            
+            <div class="control-group">
+              <label for="bookSelector">Select Classic Literature</label>
+              <select id="bookSelector" class="form-control" onchange="syntaxTool.onBookChange()">
+                <option value="all">📚 All Literature</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="sentenceGrammarFilter">Filter by Grammar Pattern</label>
+              <select id="sentenceGrammarFilter" class="form-control" onchange="syntaxTool.filterSentences()">
+                <option value="all">💫 All Sentence Patterns</option>
+                <option value="Transitive (with Direct Object)">Transitive (with Direct Object)</option>
+                <option value="Passive Voice">Passive Voice</option>
+                <option value="Relative Clause">Relative Clause</option>
+                <option value="Adverbial Clause">Adverbial Clause</option>
+                <option value="Conditional">Conditional Clause</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label>Highlight Grammar Elements</label>
+              <div class="toggle-list">
+                <label class="checkbox-toggle">
+                  <input type="checkbox" id="hlSubject" checked onchange="syntaxTool.updateHighlights()">
+                  <span class="toggle-pill"></span>
+                  <span class="label-text subject-lbl">Subjects (nsubj)</span>
+                </label>
+                <label class="checkbox-toggle">
+                  <input type="checkbox" id="hlVerb" checked onchange="syntaxTool.updateHighlights()">
+                  <span class="toggle-pill"></span>
+                  <span class="label-text verb-lbl">Verbs (ROOT)</span>
+                </label>
+                <label class="checkbox-toggle">
+                  <input type="checkbox" id="hlObject" checked onchange="syntaxTool.updateHighlights()">
+                  <span class="toggle-pill"></span>
+                  <span class="label-text object-lbl">Objects (dobj/pobj)</span>
+                </label>
+                <label class="checkbox-toggle">
+                  <input type="checkbox" id="hlAdjective" checked onchange="syntaxTool.updateHighlights()">
+                  <span class="toggle-pill"></span>
+                  <span class="label-text adjective-lbl">Adjectives (amod)</span>
+                </label>
+                <label class="checkbox-toggle">
+                  <input type="checkbox" id="hlAdverb" checked onchange="syntaxTool.updateHighlights()">
+                  <span class="toggle-pill"></span>
+                  <span class="label-text adverb-lbl">Adverbs (advmod)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Quiz Launcher inside sidebar -->
+            <div class="sidebar-footer-card glass-inset">
+              <h4>🎯 Practice Arena</h4>
+              <p>Test your grammatical eye with a quick quiz on these literature passages.</p>
+              <button class="primary-btn btn-sm w-100" id="startSyntaxQuizBtn" onclick="syntaxTool.startQuiz()">Play Grammar Quiz</button>
+            </div>
+          </aside>
+
+          <!-- Main Area: Sentence explorer & SVG Drawing -->
+          <div class="tool-content-area">
+            
+            <!-- Dual Workspace Tab Selector -->
+            <div class="workspace-tabs-bar glass">
+              <button id="wsTabBtnReader" class="ws-tab-btn active" onclick="syntaxTool.switchWorkspaceTab('reader')">📚 Immersive Book Reader</button>
+              <button id="wsTabBtnExplorer" class="ws-tab-btn" onclick="syntaxTool.switchWorkspaceTab('explorer')">🔍 Filter Pattern Explorer</button>
+            </div>
+            
+            <!-- WORKSPACE A: ACTIVE BOOK READER -->
+            <div id="wsTabReader" class="workspace-tab-content active glass">
+              <div class="reader-header">
+                <span class="navigator-meta" id="readerBookTitle">Alice in Wonderland</span>
+                <span class="section-subtext" style="margin-bottom: 0;">Scroll paragraphs, hover over sentences, and click to parse!</span>
+              </div>
+              <div class="reader-body-scroller" id="readerTextScroller">
+                <!-- Paragraphs with hoverable sentences loaded dynamically here -->
+                Loading book pages...
+              </div>
+            </div>
+
+            <!-- WORKSPACE B: FILTER PATTERN EXPLORER -->
+            <div id="wsTabExplorer" class="workspace-tab-content glass">
+              <div class="navigator-header">
+                <span class="navigator-meta" id="sentenceSourceBook">Alice in Wonderland</span>
+                <div class="navigator-buttons">
+                  <button class="icon-btn" onclick="syntaxTool.prevSentence()" title="Previous sentence">◀</button>
+                  <span class="navigator-counter" id="sentenceCounter">1 / --</span>
+                  <button class="icon-btn" onclick="syntaxTool.nextSentence()" title="Next sentence">▶</button>
+                </div>
+              </div>
+              
+              <!-- Colorable sentence text -->
+              <div class="quote-text-container">
+                <blockquote id="interactiveQuoteText" class="quote-text">
+                  <!-- Words will be rendered as interactive span tags here -->
+                  Loading literary masterpiece sentences...
+                </blockquote>
+              </div>
+
+              <!-- Grammar Tags -->
+              <div class="tags-container" id="sentenceGrammarTags">
+                <!-- Tags will be dynamically loaded here -->
+              </div>
+            </div>
+
+            <!-- Visual Dependency Tree canvas -->
+            <div class="visualizer-container glass">
+              <div class="visualizer-header">
+                <h4>🌲 Syntactic Dependency Tree</h4>
+                <p>Scroll horizontally if the sentence spans beyond the window. Hover over words or arrows.</p>
+              </div>
+              
+              <div class="scrollable-canvas-container" id="syntaxCanvasContainer">
+                <!-- Our SVG pipeline draws interactive trees here -->
+                <svg id="syntaxTreeSvg" class="syntax-tree-svg" width="800" height="280">
+                  <g id="svgLinksGroup"></g>
+                  <g id="svgWordsGroup"></g>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Contextual Word Details Panel -->
+            <div class="word-details-panel glass" id="wordDetailsPanel">
+              <div class="panel-placeholder" id="wordDetailsPlaceholder">
+                <span>💡 Click on any word in the quote or tree above to inspect its grammatical profile, dependency attributes, and historical roots!</span>
+              </div>
+              <div class="panel-content hidden" id="wordDetailsContent">
+                <div class="word-details-header">
+                  <h3 id="detWordText">Word</h3>
+                  <span class="badge" id="detWordPOS">POS</span>
+                </div>
+                <div class="word-details-grid">
+                  <div class="detail-cell">
+                    <span class="detail-label">Dictionary Form (Lemma)</span>
+                    <strong id="detWordLemma">word</strong>
+                  </div>
+                  <div class="detail-cell">
+                    <span class="detail-label">Syntax Dependency Tag</span>
+                    <strong id="detWordDep">nsubj</strong>
+                  </div>
+                  <div class="detail-cell span-2">
+                    <span class="detail-label">Linguistic Function</span>
+                    <p id="detWordExplanation">This word represents the nominal subject...</p>
+                  </div>
+                  <div class="detail-cell span-2 etymology-highlight-card hidden" id="detWordEtymologyCard">
+                    <span class="detail-label">📜 Etymological Root Detected</span>
+                    <p>Matches root <strong id="detWordRootName">bene-</strong> (<span id="detWordRootMeaning">well, good</span>).</p>
+                    <button class="primary-btn btn-xs" id="detWordRootBtn">Explore Root Ancestry ➔</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================= SYNTAX QUIZ MODAL ================= -->
+        <div id="syntaxQuizModal" class="modal-overlay hidden">
+          <div class="modal-content glass">
+            <div class="modal-header">
+              <h3>🎯 Grammar Detective Quiz</h3>
+              <button class="close-btn" onclick="syntaxTool.closeQuiz()">×</button>
+            </div>
+            <div class="modal-body" id="syntaxQuizBody">
+              <!-- Dynamically populated quiz step -->
+              <div class="quiz-score-header">
+                <span>Question <strong id="quizQIndex">1</strong> / 5</span>
+                <span>Score: <strong id="quizScore">0</strong></span>
+              </div>
+              <div class="quiz-question-box">
+                <h4 id="quizQuestionText">Click the direct object (dobj) in the sentence below:</h4>
+              </div>
+              <div class="quiz-sentence-box quote-text" id="quizSentenceInteractive">
+                <!-- interactive words -->
+              </div>
+              <div class="quiz-feedback-box hidden" id="quizFeedback">
+                <p id="quizFeedbackText">Correct! "her sister" is the object of "sitting".</p>
+                <button class="primary-btn btn-sm" id="quizNextBtn" onclick="syntaxTool.nextQuizQuestion()">Next Question ➔</button>
+              </div>
+            </div>
+            <div class="modal-body hidden" id="syntaxQuizResults">
+              <div class="results-content">
+                <span class="results-icon">🏆</span>
+                <h3>Quiz Completed!</h3>
+                <p>You scored <strong id="quizFinalScore">4</strong> out of <strong>5</strong>!</p>
+                <div class="results-actions">
+                  <button class="primary-btn" onclick="syntaxTool.startQuiz()">Play Again</button>
+                  <button class="secondary-btn" onclick="syntaxTool.closeQuiz()">Back to Parser</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 3. ETYMOLOGY TOOL VIEW ================= -->
+      <section id="viewEtymology" class="view-section">
+        <div class="tool-layout">
+          
+          <!-- Sidebar: Roots Browser -->
+          <aside class="tool-sidebar glass">
+            <div class="sidebar-header">
+              <h3>🧬 Root Library</h3>
+              <p>Explore Greek, Latin, and Germanic origins</p>
+            </div>
+
+            <div class="control-group">
+              <label for="rootSearchInput">Search Roots or Meanings</label>
+              <input type="text" id="rootSearchInput" class="form-control" placeholder="Search (e.g. 'bene' or 'write')..." oninput="etymologyTool.filterRoots()">
+            </div>
+
+            <div class="control-group">
+              <label>Filter by Origin</label>
+              <div class="tabs-control">
+                <button id="tabOriginAll" class="tab-btn active" onclick="etymologyTool.setOriginFilter('all')">All</button>
+                <button id="tabOriginLatin" class="tab-btn" onclick="etymologyTool.setOriginFilter('Latin')">Latin</button>
+                <button id="tabOriginGreek" class="tab-btn" onclick="etymologyTool.setOriginFilter('Greek')">Greek</button>
+                <button id="tabOriginGermanic" class="tab-btn" onclick="etymologyTool.setOriginFilter('Germanic')">Germanic</button>
+              </div>
+            </div>
+
+            <!-- List of Roots -->
+            <div class="roots-scroller-list" id="rootsListContainer">
+              <!-- Filled dynamically with roots -->
+              Loading etymological roots...
+            </div>
+
+            <div class="sidebar-footer-card glass-inset">
+              <h4>🧩 Vocabulary Builder</h4>
+              <p>Can you guess root origins and synthesize word meanings? Play the root challenge.</p>
+              <button class="primary-btn btn-sm w-100" onclick="etymologyTool.startQuiz()">Play Etymology Game</button>
+            </div>
+          </aside>
+
+          <!-- Main Area: Derivation Tree and Literature usages -->
+          <div class="tool-content-area">
+            
+            <div class="root-details-card glass" id="rootDetailsCard">
+              <div class="panel-placeholder" id="rootPlaceholder">
+                <span>💡 Select a root from the library list or click an etymology-linked word in the Syntax Tool to unpack its historical evolution!</span>
+              </div>
+              <div class="panel-content hidden" id="rootContent">
+                <!-- Root Info -->
+                <div class="root-main-info">
+                  <div class="root-title-row">
+                    <h2 id="rTitle">bene-</h2>
+                    <span class="badge badge-lg" id="rOrigin">Latin</span>
+                  </div>
+                  <h4 id="rMeaning">well, good</h4>
+                  <p class="root-desc" id="rDescription">Originates from Latin 'bene', which means well or honorably.</p>
+                </div>
+
+                <!-- Word derivation Tree visual area -->
+                <div class="derivation-tree-section">
+                  <h4>🌳 Word Derivation Family Tree</h4>
+                  <p class="section-subtext">Click on any branch word to see how it incorporates this ancient root!</p>
+                  
+                  <div class="tree-canvas-container" id="treeCanvasContainer">
+                    <!-- Dynamic rendering of a botanical family tree for words -->
+                    <div class="tree-root-node" id="treeRootNode">bene</div>
+                    <div class="tree-branches-container" id="treeBranchesContainer">
+                      <!-- child word leaves -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Usages in the classic literature corpus -->
+                <div class="literature-usages-section">
+                  <h4>📖 Literature Examples in Corpus</h4>
+                  <p class="section-subtext">Sentences from your classical library utilizing words derived from this root.</p>
+                  
+                  <div class="usages-list" id="usagesListContainer">
+                    <!-- Sentences using the root -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================= ETYMOLOGY GAME MODAL ================= -->
+        <div id="etymologyQuizModal" class="modal-overlay hidden">
+          <div class="modal-content glass">
+            <div class="modal-header">
+              <h3>🧩 Word Synthesis & Etymology Game</h3>
+              <button class="close-btn" onclick="etymologyTool.closeQuiz()">×</button>
+            </div>
+            <div class="modal-body" id="etymologyQuizBody">
+              <div class="quiz-score-header">
+                <span>Challenge <strong id="etQIndex">1</strong> / 5</span>
+                <span>Score: <strong id="etScore">0</strong></span>
+              </div>
+              
+              <div class="quiz-question-box">
+                <h4 id="etQuestionText">What is the meaning of the Latin root 'mal'?</h4>
+              </div>
+
+              <div class="options-grid" id="etOptionsGrid">
+                <!-- multiple choice buttons -->
+              </div>
+              
+              <div class="quiz-feedback-box hidden" id="etFeedback">
+                <p id="etFeedbackText">Correct!</p>
+                <button class="primary-btn btn-sm" id="etNextBtn" onclick="etymologyTool.nextQuizQuestion()">Next Challenge ➔</button>
+              </div>
+            </div>
+            
+            <div class="modal-body hidden" id="etymologyQuizResults">
+              <div class="results-content">
+                <span class="results-icon">🥇</span>
+                <h3>Challenge Complete!</h3>
+                <p>You scored <strong id="etFinalScore">0</strong> out of <strong>5</strong>!</p>
+                <div class="results-actions">
+                  <button class="primary-btn" onclick="etymologyTool.startQuiz()">Play Again</button>
+                  <button class="secondary-btn" onclick="etymologyTool.closeQuiz()">Back to Explorer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- App Footer -->
+    <footer class="app-footer glass">
+      <p>&copy; 2026 Syntactika. Made with 🏛️, 🌲 spaCy, and Classic Literature. Powered by Static GitHub Pages.</p>
+    </footer>
+
+  </div>
+
+  <!-- CORE SCRIPTS -->
+  <script src="js/app.js"></script>
+  <script src="js/syntax-tool.js"></script>
+  <script src="js/etymology-tool.js"></script>
+</body>
+</html>

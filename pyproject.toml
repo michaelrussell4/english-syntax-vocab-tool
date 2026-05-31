@@ -1,0 +1,11 @@
+[project]
+name = "english-syntax-vocab-tool"
+version = "0.1.0"
+description = "Interactive English Syntax and Vocabulary Etymology Learning Tool"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "spacy>=3.7.0",
+    "requests>=2.31.0",
+    "click>=8.4.1",
+]

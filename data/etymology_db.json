@@ -1,0 +1,375 @@
+{
+  "roots": [
+    {
+      "root": "bene",
+      "origin": "Latin",
+      "meaning": "well, good",
+      "examples": ["benevolent", "beneficial", "benefit", "benign", "bonus"],
+      "description": "Originates from Latin 'bene', which means well or honorably. Used to describe positive actions, states, or attributes."
+    },
+    {
+      "root": "mal",
+      "origin": "Latin",
+      "meaning": "bad, evil, ill",
+      "examples": ["malevolent", "malicious", "malignant", "malady", "dismal"],
+      "description": "Originates from Latin 'malus', meaning bad. Used to denote harmful, evil, or poorly functioning entities and activities."
+    },
+    {
+      "root": "dict",
+      "origin": "Latin",
+      "meaning": "speak, say, tell",
+      "examples": ["dictionary", "dictation", "predict", "contradict", "verdict", "dictate"],
+      "description": "Derived from Latin 'dicere' (to say, speak) or 'dictare' (to repeat). Relates to verbal communication, speech, or writing."
+    },
+    {
+      "root": "spect",
+      "origin": "Latin",
+      "meaning": "look, see, watch",
+      "examples": ["spectator", "spectacles", "inspect", "respect", "conspicuous", "suspicion", "perspective"],
+      "description": "Derived from Latin 'spectare', a frequentative verb meaning to look at, or 'specere' meaning to see. Associated with visual observation and oversight."
+    },
+    {
+      "root": "graph",
+      "origin": "Greek",
+      "meaning": "write, draw, record",
+      "examples": ["bibliography", "biography", "telegram", "grammar", "graphic", "autograph", "calligraphy"],
+      "description": "Derived from Greek 'graphein', meaning to write, scratch, or draw. Describes records, drawings, or written language."
+    },
+    {
+      "root": "bio",
+      "origin": "Greek",
+      "meaning": "life",
+      "examples": ["biology", "biography", "biosphere", "biotic", "symbiotic", "biodegradable"],
+      "description": "Derived from Greek 'bios', meaning course of life or living things. Forms the basis of words related to living organisms."
+    },
+    {
+      "root": "chron",
+      "origin": "Greek",
+      "meaning": "time",
+      "examples": ["chronology", "chronic", "synchronize", "chronicle", "anachronism"],
+      "description": "Derived from Greek 'khronos', meaning time. Appears in terms related to temporal sequences, intervals, and historical records."
+    },
+    {
+      "root": "morph",
+      "origin": "Greek",
+      "meaning": "form, shape",
+      "examples": ["morphology", "amorphous", "metamorphosis", "polymorphic", "anthropomorphic"],
+      "description": "Derived from Greek 'morphe', meaning shape or outer form. Deals with configurations, structural patterns, and transitions."
+    },
+    {
+      "root": "path",
+      "origin": "Greek",
+      "meaning": "feeling, suffering, emotion, disease",
+      "examples": ["sympathy", "empathy", "apathy", "pathetic", "pathology", "antipathy", "telepathy"],
+      "description": "Derived from Greek 'pathos', which means suffering, feeling, or emotion. Connects to mental states or clinical diseases."
+    },
+    {
+      "root": "port",
+      "origin": "Latin",
+      "meaning": "carry, bear",
+      "examples": ["portable", "export", "import", "transport", "portfolio", "report", "support"],
+      "description": "Derived from Latin 'portare', meaning to carry or transport items or information from one point to another."
+    },
+    {
+      "root": "scrib",
+      "origin": "Latin",
+      "meaning": "write",
+      "examples": ["scribble", "script", "describe", "prescription", "manuscript", "transcribe", "inscription"],
+      "description": "Derived from Latin 'scribere', meaning to write or draw lines. Relates to typography, documentation, and drafting."
+    },
+    {
+      "root": "vis",
+      "origin": "Latin",
+      "meaning": "see",
+      "examples": ["video", "vision", "visible", "revise", "supervisor", "provide", "visual"],
+      "description": "Derived from Latin 'videre' (past participle 'visus'), meaning to see. Associated with sight, observation, and oversight."
+    },
+    {
+      "root": "aud",
+      "origin": "Latin",
+      "meaning": "hear, listen",
+      "examples": ["audio", "audience", "auditorium", "audition", "audible", "audiovisual"],
+      "description": "Derived from Latin 'audire', meaning to hear. Used in reference to acoustic sound waves, listening, and speaking venues."
+    },
+    {
+      "root": "voc",
+      "origin": "Latin",
+      "meaning": "call, voice",
+      "examples": ["vocal", "vocabulary", "advocate", "provoke", "equivocal", "invoke", "vocation"],
+      "description": "Derived from Latin 'vox' (voice) or 'vocare' (to call). Linked to speech, naming, calling out, and career vocations."
+    },
+    {
+      "root": "tract",
+      "origin": "Latin",
+      "meaning": "pull, drag, draw",
+      "examples": ["tractor", "attract", "distract", "extract", "retract", "contract", "abstract"],
+      "description": "Derived from Latin 'trahere' (past participle 'tractus'), meaning to drag or pull. Relates to physical force or cognitive drawing."
+    },
+    {
+      "root": "cred",
+      "origin": "Latin",
+      "meaning": "believe, trust",
+      "examples": ["credit", "incredible", "credible", "credentials", "creed", "incredulous"],
+      "description": "Derived from Latin 'credere', meaning to believe or trust. Forms the foundation of terms describing faith, character, and financial trust."
+    },
+    {
+      "root": "duc",
+      "origin": "Latin",
+      "meaning": "lead, guide",
+      "examples": ["conduct", "abduct", "induce", "deduce", "ductile", "reduction", "introduce", "educate"],
+      "description": "Derived from Latin 'ducere', meaning to lead or channel. Found in terms describing guiding, drawing out, or managing."
+    },
+    {
+      "root": "fac",
+      "origin": "Latin",
+      "meaning": "make, do",
+      "examples": ["factory", "affect", "efficient", "deficit", "perfect", "magnificent", "manufacture", "facilitate"],
+      "description": "Derived from Latin 'facere' (past participle 'factus'), meaning to make, build, or perform an action."
+    },
+    {
+      "root": "auto",
+      "origin": "Greek",
+      "meaning": "self",
+      "examples": ["automatic", "autobiography", "autonomy", "autograph", "automotive", "automobile"],
+      "description": "Derived from Greek 'autos', meaning self, same, or spontaneous. Denotes actions or items that operate independently."
+    },
+    {
+      "root": "tele",
+      "origin": "Greek",
+      "meaning": "far, distant",
+      "examples": ["telephone", "television", "telescope", "telegram", "telepathy", "telecommunications"],
+      "description": "Derived from Greek 'tele', meaning far off or operating over a distance."
+    },
+    {
+      "root": "phon",
+      "origin": "Greek",
+      "meaning": "sound, voice",
+      "examples": ["phonics", "symphony", "megaphone", "microphone", "phonetic", "cacophony"],
+      "description": "Derived from Greek 'phone', meaning sound, voice, or language syntax."
+    },
+    {
+      "root": "phil",
+      "origin": "Greek",
+      "meaning": "love, friendship",
+      "examples": ["philosophy", "philanthropist", "bibliophile", "Philadelphia", "philology"],
+      "description": "Derived from Greek 'philein' (to love) or 'philos' (dear, beloved). Denotes affinities, scholarly passions, or goodwill."
+    },
+    {
+      "root": "phob",
+      "origin": "Greek",
+      "meaning": "fear, dread",
+      "examples": ["phobia", "claustrophobia", "xenophobia", "arachnophobia", "hydrophobia"],
+      "description": "Derived from Greek 'phobos', meaning fear, terror, or flight. Used to denote psychological aversions and fears."
+    },
+    {
+      "root": "log",
+      "origin": "Greek",
+      "meaning": "word, study, reason, speech",
+      "examples": ["logic", "biology", "apology", "dialogue", "monologue", "prologue", "analogy", "logistics"],
+      "description": "Derived from Greek 'logos', which means word, reason, speech, or discourse. Frequently refers to scholarly domains (-ology)."
+    },
+    {
+      "root": "mono",
+      "origin": "Greek",
+      "meaning": "one, single, alone",
+      "examples": ["monologue", "monopoly", "monotonous", "monochrome", "monastery", "monarch"],
+      "description": "Derived from Greek 'monos', meaning single, alone, or solitary. Denotes singular ownership, speech, or form."
+    },
+    {
+      "root": "poly",
+      "origin": "Greek",
+      "meaning": "many, much",
+      "examples": ["polygon", "polytheism", "polynomial", "polymer", "polymath", "polygamy"],
+      "description": "Derived from Greek 'polys', meaning many or multiple. Found in terms describing multiplicity, diversity, or compounds."
+    },
+    {
+      "root": "anthrop",
+      "origin": "Greek",
+      "meaning": "human, mankind",
+      "examples": ["anthropology", "philanthropist", "misanthrope", "anthropomorphic", "anthropocentric"],
+      "description": "Derived from Greek 'anthropos', meaning human being. Used to describe human cultures, physiology, and philosophies."
+    },
+    {
+      "root": "gen",
+      "origin": "Greek",
+      "meaning": "birth, race, produce, origin",
+      "examples": ["generate", "genetics", "genealogy", "generic", "indigenous", "pathogen", "generous", "genesis"],
+      "description": "Derived from Greek 'genos' (race, kind) or 'gignesthai' (to be born). Refers to heritage, reproduction, or creation."
+    },
+    {
+      "root": "geo",
+      "origin": "Greek",
+      "meaning": "earth, ground",
+      "examples": ["geography", "geology", "geometry", "geothermal", "geocentric", "geopolitics"],
+      "description": "Derived from Greek 'ge', meaning earth or land. Used to describe planetary sciences, surveying, and mapping."
+    },
+    {
+      "root": "metr",
+      "origin": "Greek",
+      "meaning": "measure",
+      "examples": ["metric", "thermometer", "perimeter", "diameter", "symmetry", "geometry", "metronome"],
+      "description": "Derived from Greek 'metron', meaning measure or scale. Used to describe instruments and mathematical dimensions."
+    },
+    {
+      "root": "hydr",
+      "origin": "Greek",
+      "meaning": "water",
+      "examples": ["hydrate", "dehydrate", "hydrogen", "hydraulic", "hydrant", "hydroelectric"],
+      "description": "Derived from Greek 'hudor', meaning water. Associated with fluid mechanics, chemical compounds, and hydration states."
+    },
+    {
+      "root": "therm",
+      "origin": "Greek",
+      "meaning": "heat, warm",
+      "examples": ["thermal", "thermometer", "thermostat", "geothermal", "thermodynamic", "hypothermia"],
+      "description": "Derived from Greek 'therme', meaning heat or warmth. Found in terms relating to temperature regulation and energy."
+    },
+    {
+      "root": "cept",
+      "origin": "Latin",
+      "meaning": "take, seize, receive",
+      "examples": ["capture", "intercept", "recipe", "participate", "conceptual", "perceive", "except", "reception"],
+      "description": "Derived from Latin 'capere' (past participle 'captus'), meaning to take or seize. Describes catching, gathering, or conceiving."
+    },
+    {
+      "root": "ten",
+      "origin": "Latin",
+      "meaning": "hold, keep",
+      "examples": ["tenacious", "retention", "contain", "maintain", "continent", "tenant", "tenet", "sustainable"],
+      "description": "Derived from Latin 'tenere', meaning to hold or keep fast. Describes maintenance, durability, or storage contents."
+    },
+    {
+      "root": "miss",
+      "origin": "Latin",
+      "meaning": "send, let go",
+      "examples": ["transmit", "mission", "dismiss", "submit", "emit", "missive", "promise", "admit"],
+      "description": "Derived from Latin 'mittere' (past participle 'missus'), meaning to send, launch, or throw."
+    },
+    {
+      "root": "pos",
+      "origin": "Latin",
+      "meaning": "put, place",
+      "examples": ["postpone", "position", "component", "dispose", "impose", "oppose", "expose", "deposit"],
+      "description": "Derived from Latin 'ponere' (past participle 'positus'), meaning to place or arrange. Relates to alignment, postures, and structures."
+    },
+    {
+      "root": "sequ",
+      "origin": "Latin",
+      "meaning": "follow",
+      "examples": ["sequence", "consecutive", "sequel", "subsequent", "persecute", "prosecute", "consequence"],
+      "description": "Derived from Latin 'sequi', meaning to follow, pursue, or come after. Relates to logical order, linear steps, and outcomes."
+    },
+    {
+      "root": "vent",
+      "origin": "Latin",
+      "meaning": "come",
+      "examples": ["convene", "prevent", "adventure", "event", "inventory", "avenue", "intervention", "convent"],
+      "description": "Derived from Latin 'venire' (past participle 'ventus'), meaning to come or arrive. Associated with occurrences, meetings, or arrivals."
+    },
+    {
+      "root": "fer",
+      "origin": "Latin",
+      "meaning": "carry, bear, bring",
+      "examples": ["transfer", "ferry", "fertile", "reference", "suffer", "defer", "prefer", "inference"],
+      "description": "Derived from Latin 'ferre', meaning to carry, bear, or produce. Refers to carrying items, drawing inferences, or yielding fruit."
+    },
+    {
+      "root": "puls",
+      "origin": "Latin",
+      "meaning": "drive, push, beat",
+      "examples": ["propel", "pulse", "compel", "repulse", "expel", "impulse", "compulsive", "pulsate"],
+      "description": "Derived from Latin 'pellere' (past participle 'pulsus'), meaning to push, strike, or drive out."
+    },
+    {
+      "root": "ped",
+      "origin": "Latin",
+      "meaning": "foot",
+      "examples": ["pedestrian", "pedal", "pedestal", "impede", "expedite", "pedicure", "expedition"],
+      "description": "Derived from Latin 'pes' (genitive 'pedis'), meaning foot. Relates to foot transit, obstacles, and mechanical pedals. Do not confuse with the Greek root for child."
+    },
+    {
+      "root": "dem",
+      "origin": "Greek",
+      "meaning": "people",
+      "examples": ["democracy", "epidemic", "demographic", "demagogue", "endemic"],
+      "description": "Derived from Greek 'demos', meaning the common people or populace of a district. Relates to governance, populations, and public health."
+    },
+    {
+      "root": "arch",
+      "origin": "Greek",
+      "meaning": "rule, govern, chief, ancient",
+      "examples": ["monarchy", "anarchy", "architect", "archetype", "archbishop", "archaeology", "oligarchy"],
+      "description": "Derived from Greek 'arkhein' (to rule) or 'arkhos' (ruler) and 'arkhaios' (ancient). Used in terms of structural order, hierarchy, or historical periods."
+    },
+    {
+      "root": "psych",
+      "origin": "Greek",
+      "meaning": "mind, soul, spirit",
+      "examples": ["psychology", "psychiatrist", "psychic", "psychedelic", "psychosis", "psychosomatic"],
+      "description": "Derived from Greek 'psykhe', meaning breath, soul, mind, or life. Denotes study of human consciousness and cognitive disorders."
+    },
+    {
+      "root": "corp",
+      "origin": "Latin",
+      "meaning": "body",
+      "examples": ["corporation", "corpse", "corpus", "corpulent", "corporate", "incorporate"],
+      "description": "Derived from Latin 'corpus' (genitive 'corporis'), meaning body. Found in legal assemblies, physical carcasses, and textual bodies."
+    },
+    {
+      "root": "manu",
+      "origin": "Latin",
+      "meaning": "hand",
+      "examples": ["manual", "manufacture", "manuscript", "manipulate", "emancipate", "maneuver"],
+      "description": "Derived from Latin 'manus', meaning hand. Relates to physical work, manual guidance, and liberation from hand restraints."
+    },
+    {
+      "root": "fore",
+      "origin": "Germanic",
+      "meaning": "before, front, ahead",
+      "examples": ["forecast", "forehead", "foreshadow", "forebear", "foremost", "foresee", "groundfore"],
+      "description": "A highly productive Old English/Germanic prefix meaning before in position, time, or precedence."
+    },
+    {
+      "root": "under",
+      "origin": "Germanic",
+      "meaning": "below, beneath, insufficient",
+      "examples": ["undergo", "underestimate", "understand", "undergarment", "underground", "undertaker"],
+      "description": "An Old English/Germanic preposition and prefix denoting a position below, behind, or a state of insufficiency."
+    },
+    {
+      "root": "over",
+      "origin": "Germanic",
+      "meaning": "above, excessive, across",
+      "examples": ["overlook", "overbearing", "overdo", "overflow", "overwhelm", "oversee", "overtake"],
+      "description": "An Old English/Germanic prefix meaning above, superior, beyond, or excessive in amount/degree."
+    },
+    {
+      "root": "out",
+      "origin": "Germanic",
+      "meaning": "beyond, external, surpassing",
+      "examples": ["outcast", "outcome", "outdoor", "outlandish", "outrun", "outstanding", "outlaw"],
+      "description": "An Old English/Germanic prefix denoting outward motion, exclusion, or the act of surpassing/exceeding."
+    },
+    {
+      "root": "with",
+      "origin": "Germanic",
+      "meaning": "against, back, away",
+      "examples": ["withdraw", "withhold", "withstand"],
+      "description": "An Old English/Germanic prefix representing opposition, backing away, or withholding."
+    },
+    {
+      "root": "mis",
+      "origin": "Germanic",
+      "meaning": "bad, wrong, astray",
+      "examples": ["mistake", "mislead", "mischief", "mistrust", "misdeed", "misunderstand", "mishap"],
+      "description": "An Old English/Germanic prefix meaning bad, wrong, erroneous, or astray."
+    },
+    {
+      "root": "un",
+      "origin": "Germanic",
+      "meaning": "not, opposite, reversal",
+      "examples": ["unhappy", "undo", "unlock", "unseen", "ungrateful", "unusual", "unfold"],
+      "description": "An Old English/Germanic prefix expressing negation or reversal of an action/state."
+    }
+  ]
+}
