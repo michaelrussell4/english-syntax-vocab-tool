@@ -129,4 +129,4 @@ The action:
 2. Installs `uv` and builds the Python 3.13 environment.
 3. Automatically downloads the `spaCy` NLP pipeline.
 4. Compiles the classic literature texts and maps the etymologies, writing `corpus.json` and `roots.json` inside the web directory.
-5. Deploys the finalized `web/` assets directly to GitHub Pages!
+5. Deploys the finalized `web/` assets directly to GitHub Pages.
